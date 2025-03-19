@@ -2,6 +2,18 @@
 
 A simple dictionary implementation in C using a hash table with chaining.
 
+
+## System Details
+
+OS: OracleLinux 8.10 x86_64
+
+CPU Model: Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz
+
+vCPU Count: 2
+
+RAM: 4 GB
+
+
 ## Features
 
  • Add key-value pairs (put)
@@ -20,6 +32,7 @@ A simple dictionary implementation in C using a hash table with chaining.
   
  • Load dictionary from file (ldf)
 
+
 ## Files
 
 • dict.c - Implementation of the dictionary functions
@@ -28,17 +41,20 @@ A simple dictionary implementation in C using a hash table with chaining.
 
 • main.c - Main program to interact with the dictionary
 
+
 ## Compilation
 
 To compile the program, use:
 
  ``` _gcc -o dictionary main.c dict.c_ ```
+ 
 
 ## Usage
 
 Run the program:
 
  ``` ./dictionary ```
+ 
 
 ### Commands:
 
@@ -58,6 +74,7 @@ Run the program:
 
 • ldf <filename> - Loads dictionary from a file.
 
+
 ## Example Usage
 
 ```
@@ -75,11 +92,13 @@ END_DUMP
 0
 ```
 
+
 ## Memory Management
 
 • dict_create() initializes a dictionary.
 
 • dict_destroy() frees allocated memory.
+
 
 ## License
 
