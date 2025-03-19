@@ -1,4 +1,4 @@
-# Dictionary-in-C
+# Dictionary in C
 
 A simple dictionary implementation in C using a hash table with chaining.
 
