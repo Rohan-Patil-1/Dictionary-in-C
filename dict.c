@@ -1,3 +1,5 @@
+//Need to follow naming convention for functions as given in dict.h header file
+
 #include <alloca.h>
 #include <stdio.h>
 #include <stdlib.h>
